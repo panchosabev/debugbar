@@ -2,6 +2,7 @@
   "name": "panchosabev/debugbar",
   "description": "description",
   "minimum-stability": "stable",
+  "type": "library",
   "license": "proprietary",
   "authors": [
     {
