@@ -81,7 +81,7 @@ class Decorator
         self::csv();
         $html = '<h5>Debug bar</h5>';
         if (file_exists("Debug Data Exported.csv")) {
-            $html .= '<a href="Debug Data Exported.csv">Download Debug information as CSV</a>';
+            $html .= sprintf('<a href="/Debug Data Exported.csv?rnd=%s">Download Debug information as CSV</a>', rand(1000, 5000));
         }
         $html .= '<input type="checkbox" id="title1" />
             <label for="title1">HTML</label>';
