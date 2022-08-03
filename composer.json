@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/Debugbar",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "panchosabev",
+      "email": "pancho.sabev@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
