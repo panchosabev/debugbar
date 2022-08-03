@@ -78,10 +78,12 @@ class Decorator
 
     public function renderOld($htmlResult = '', $jsonResult = '')
     {
+        self::csv();
         $html = '<h5>Debug bar</h5>';
-        $html .= '<a href="Debug Data Exported.csv">Download Debug information as CSV</a>';
-
-    $html .= '<input type="checkbox" id="title1" />
+        if (file_exists("Debug Data Exported.csv")) {
+            $html .= '<a href="Debug Data Exported.csv">Download Debug information as CSV</a>';
+        }
+        $html .= '<input type="checkbox" id="title1" />
             <label for="title1">HTML</label>';
 
         $html .= '<div class="content">

@@ -11,7 +11,8 @@
     }
   ],
   "require": {
-    "myclabs/php-enum": "*"
+    "myclabs/php-enum": "*",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
