@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Library\Debugbar;
+namespace Debugbar\Debugbar;
 
-use App\Library\Debugbar\Interfaces\DebugDataInterface;
+use Debugbar\Interfaces\DebugDataInterface;
 
 class DebugData implements DebugDataInterface
 {

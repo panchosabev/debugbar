@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Library\Debugbar\Enums;
+namespace Debugbar\Enums;
 
 use MyCLabs\Enum\Enum;
 

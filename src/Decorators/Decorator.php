@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Library\Debugbar\Decorators;
+namespace Debugbar\Decorators;
 
-use App\Library\Debugbar\Enums\DecorationTypes;
-use App\Library\Debugbar\Interfaces\DebugbarDataInterface;
+use Debugbar\Enums\DecorationTypes;
+use Debugbar\Interfaces\DebugbarDataInterface;
 
 class Decorator
 {

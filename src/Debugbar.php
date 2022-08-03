@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Library\Debugbar;
+namespace Debugbar\Debugbar;
 
-use App\Library\Debugbar\Decorators\Decorator;
-use App\Library\Debugbar\Enums\DecorationTypes;
-use App\Library\Debugbar\Interfaces\DebugbarDataInterface;
-use App\Library\Debugbar\Interfaces\DebugDataInterface;
+use Debugbar\Decorators\Decorator;
+use Debugbar\Enums\DecorationTypes;
+use Debugbar\Interfaces\DebugbarDataInterface;
+use Debugbar\Interfaces\DebugDataInterface;
 
 class Debugbar implements DebugbarDataInterface
 {
