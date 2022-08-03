@@ -1,6 +1,6 @@
 <?php
 
-namespace Debugbar\Debugbar;
+namespace Debugbar;
 
 use Debugbar\Decorators\Decorator;
 use Debugbar\Enums\DecorationTypes;
